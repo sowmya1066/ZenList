@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="nav-header">
+        <img src="logo.png" alt="logo" class="logo" />
+      </div>
+      <div class="icon-container">
+        <i class="fa-solid fa-circle-half-stroke" id="ic_con"></i>
+      </div>
+    </nav>
+    <div class="task_entries">
+      <input type="date" id="dateInput" class="task_entries_date" />
+      <input
+        type="text"
+        id="taskInput"
+        placeholder="Enter your task"
+        class="task_entries_text"
+      />
+      <button id="addTaskBtn" class="task_entries_btn">
+        <i class="fa-solid fa-plus"></i>
+      </button>
+    </div>
+
+    <div id="todoList" class="todo-list-container"></div>
+
+    <footer class="footer-s">
+      <p class="footer__copyright">
+        &copy; Copyright by
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://www.linkedin.com/in/sowmya-g-s-060b95210"
+          >Sowmya G S.</a
+        >
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
